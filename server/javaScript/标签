@@ -1,0 +1,4 @@
+alert （）；  弹窗
+document.write（）；  向body中 写一段内容
+console.log （）；:是向控制台输出一段话
+prompt() :这个函数可以弹出一个提示框，该提示框自带一个文本框“详情看lianxi01.html”

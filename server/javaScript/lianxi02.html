@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <script>
+        /*
+        编写程序，由键盘输入三个整数 分别存入变量 num1 2 3 ....
+        对他们排序，并且从大到小输入
+
+        */
+       var num1 = +prompt("请输入变量1：")
+       var num2 = +prompt("请输入变量2：")
+       var num3 = +prompt("请输入变量3：")
+       if(num1>num2&&num2>num3){
+           console.log("num1:"+num1)
+           console.log("num2:"+num2)
+           console.log("num3:"+num3)
+       }
+       if(num2>num1&&num1>num3){
+           console.log("num2:"+num2)
+           console.log("num1:"+num1)
+           console.log("num3:"+num3)
+       }
+       if(num3>num2&&num2>num1){
+           console.log("num3:"+num3)
+           console.log("num2:"+num2)
+           console.log("num1:"+num1)
+       }
+       if(num2>num3&&num3>num1){
+           console.log("num2:"+num2)
+           console.log("num3:"+num3)
+           console.log("num1:"+num1)
+       }
+       if(num3>num1&&num1>num2){
+           console.log("num3:"+num3)
+           console.log("num1:"+num1)
+           console.log("num2:"+num2)
+       }
+       if(num1>num3&&num3>num2){
+           console.log("num1:"+num1)
+           console.log("num3:"+num3)
+           console.log("num2:"+num2)
+       }
+       
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
