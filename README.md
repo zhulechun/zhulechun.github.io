@@ -1,19 +1,19 @@
 # MiNa
-皆さん一緒に\n 
+皆さん一緒に/n
 ### 标识符
-在JS 中所有可以由我们自主命名的 都可以成为标识符
-标识符不能已数字开头
-命名规则和JAVA命名方式一致,驼峰命名法;
+在JS 中所有可以由我们自主命名的 都可以成为标识符/n
+标识符不能已数字开头/n
+命名规则和JAVA命名方式一致,驼峰命名法;/n
 
 ---
 
 ### 数据类型
-String 字符串
-Number 数值
-Boolean 布尔值
-Noll 空值
-Undefiend 未定义
-Object 对象
+String 字符串/n
+Number 数值/n
+Boolean 布尔值/n
+Noll 空值/n
+Undefiend 未定义/n
+Object 对象/n
 其中 `String Number Boolean Noll Undefiend` 属于基本数据类型
 而`Object` 属于引用数据类型
 `console.log(Number.MAX_VALUE);`输出数值中的最大值 
@@ -197,10 +197,12 @@ do{
 语法：
 `function  函数名（形参1，形参2....形参N）{语句....}`
 例：
+```
 function fun2(){
     console.log("这个是啦啦啦啦啦")；
 }
 fun2();
+```
 ##### 函数表达式 来创建一个函数
 
 #### 函数的参数
@@ -209,10 +211,12 @@ fun2();
 }
 zhu（2，3）//在调用的时候，在给参数赋值；也就是实参；
 例：
+```
 `function` zhu(a,b){
     console.log(a+b);
 }
 zhu(3,4);//这里调用函数zhu();返回的结果，就是3+4的和；
+```
 ##### 调用函数时，解析器不会检查实参的数据类型；
 ##### 调用函数时，解析器也不会检查实参的数量，多余的实参不会被赋值；
 ### 返回值
@@ -223,8 +227,10 @@ reture 值/变量
 如果函数中不写reture，则也会返回undefiend；
 ##### 实参可以是任意数据类型
 例：
+```
 function fun(a,b){
     var d = a+b;
     
 }
+```
 
